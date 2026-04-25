@@ -1,0 +1,12 @@
+role: PlatformAdapter
+
+input:
+  selected_topic
+  target_platform
+
+output:
+  adapted_story_model:
+    pacing:
+    hook_density:
+    conflict_frequency:
+    writing_style:
