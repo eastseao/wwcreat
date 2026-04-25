@@ -1,0 +1,5 @@
+metrics:
+  - CTR
+  - retention
+  - drop_off_point
+  - comment_trigger_rate
