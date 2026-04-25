@@ -1,9 +1,0 @@
-rules:
-  if platform == "fanqie":
-    increase_hook_frequency
-
-  if platform == "feilu":
-    increase_conflict_density
-
-  if platform == "qidian":
-    increase_worldbuilding_depth
