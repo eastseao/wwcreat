@@ -1,0 +1,25 @@
+emotion_model:
+
+  cycle:
+    - suppression
+    - tension
+    - escalation
+    - climax
+    - release
+
+rules:
+
+  per_chapter:
+    min_emotion_shift: 1
+    must_include:
+      - conflict
+      - reversal_or_growth
+
+  per_10_chapters:
+    must_include:
+      - mini_climax
+
+  global_curve:
+    early: suppression
+    mid: escalation
+    late: explosion
