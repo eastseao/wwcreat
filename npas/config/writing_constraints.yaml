@@ -1,0 +1,20 @@
+hard_rules:
+
+  structure:
+    - no_outline_deviation
+    - no_new_main_plot
+    - no_power_skip
+
+  character:
+    - no_random_personality_change
+    - no_relationship_jump
+
+  narrative:
+    - no_long_exposition
+    - no_ai_template_phrases
+    - no_abstract_emotion_dump
+
+required_elements:
+  - conflict_per_chapter
+  - emotional_shift_per_chapter
+  - hook_per_chapter
