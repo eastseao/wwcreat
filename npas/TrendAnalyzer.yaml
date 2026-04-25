@@ -1,0 +1,9 @@
+analysis:
+  - rising_topics
+  - saturated_topics
+  - declining_topics
+
+output:
+  opportunity_zones:
+    - high_growth_low_competition
+    - stable_high_demand
