@@ -1,0 +1,21 @@
+role: MarketScanner
+
+input:
+  data_sources:
+    - platform_trends
+    - search_hotwords
+    - reader_behavior
+    - genre_rankings
+
+output:
+  trending_genres:
+    - system_flow
+    - urban_rebirth
+    - fantasy_cultivation
+    - quick_transmigration
+
+  heat_map:
+    genre:
+      popularity_score:
+      growth_rate:
+      competition_level:
