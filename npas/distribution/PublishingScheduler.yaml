@@ -1,0 +1,9 @@
+schedule:
+  fanqie:
+    daily: 3_chapters
+
+  qidian:
+    daily: 1-2_chapters
+
+  feilu:
+    bursts: 5_chapters_initial_push
