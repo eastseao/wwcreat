@@ -1,0 +1,25 @@
+genre_market:
+
+  system_flow:
+    demand: very_high
+    competition: very_high
+    success_pattern: "开局系统+连续打脸"
+
+  urban_rebirth:
+    demand: high
+    competition: high
+    success_pattern: "重生+逆袭+现实压制"
+
+  cultivation:
+    demand: high
+    competition: medium
+    success_pattern: "等级突破+宗门冲突"
+
+  quick_transmigration:
+    demand: medium
+    competition: medium
+    success_pattern: "世界切换+任务驱动"
+
+market_rules:
+  - prefer_high_demand_low_competition
+  - avoid_saturated_variants
