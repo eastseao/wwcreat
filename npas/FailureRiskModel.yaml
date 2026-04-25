@@ -1,7 +1,0 @@
-detect:
-  - overused_tropes
-  - saturated_genre
-  - weak_hook
-
-output:
-  risk_score:
