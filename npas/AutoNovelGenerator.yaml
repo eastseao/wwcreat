@@ -1,0 +1,13 @@
+input:
+  final_topic
+  platform_model
+
+output:
+  novel_structure:
+    - 30_chapter_outline
+    - climax_distribution
+    - hook_chain
+
+rules:
+  - follow_market_adaptation
+  - follow_platform_profile
