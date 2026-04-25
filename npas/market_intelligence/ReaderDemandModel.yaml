@@ -1,0 +1,10 @@
+tracks:
+  - click_behavior
+  - retention_curve
+  - emotional_preference
+
+output:
+  demand_profile:
+    male_readers:
+    female_readers:
+    mixed_readers:
