@@ -1,0 +1,8 @@
+rule:
+  select:
+    - highest_viral_score
+    - lowest_competition
+    - highest_retention_potential
+
+output:
+  final_topic:
