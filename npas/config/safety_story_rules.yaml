@@ -1,0 +1,17 @@
+rules:
+
+  consistency:
+    - timeline_must_be_linear
+    - no_event_rewrite
+
+  logic:
+    - no_unexplained_power_gain
+    - no_instant_resolution_of_conflict
+
+  continuity:
+    - previous_state_must_be_reference_point
+    - no_retcon_without_trigger_event
+
+fallback:
+  if_violation_detected:
+    - auto_regenerate_section
