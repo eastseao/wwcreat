@@ -1,0 +1,12 @@
+platforms:
+  qidian:
+    style: "剧情慢热 + 世界观深"
+    advantage: "长线付费"
+
+  fanqie:
+    style: "快节奏 + 强爽点"
+    advantage: "推荐流"
+
+  feilu:
+    style: "极致爽 + 高频打脸"
+    advantage: "短平快爆发"
