@@ -1,0 +1,8 @@
+input:
+  one_sentence_idea: "一句话爆点创意"
+
+system_expansion:
+  generate:
+    - full_story_arc
+    - engagement_model
+    - conflict_structure
