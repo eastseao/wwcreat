@@ -1,0 +1,35 @@
+```yaml id="config_yaml"
+system:
+  name: Outline2NovelFactory
+  mode: industrial
+
+output:
+  target_words: 1000000
+  avg_chapter_words: 3000
+  chapters: 350
+
+engine:
+  outline_parser: true
+  story_engine: true
+  chapter_planner: true
+  writing_engine: true
+  growth_system: true
+
+rules:
+  enforce_conflict: true
+  enforce_hook: true
+  enforce_progression: true
+
+npas:
+  enable: true
+  rewrite_threshold: 0.55
+  viral_threshold: 0.8
+
+pacing:
+  climax_interval: 4
+  filler_ratio: 0.3
+  high_tension_ratio: 0.2
+
+serialization:
+  mode: daily
+  chapters_per_day: 1
