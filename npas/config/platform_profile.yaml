@@ -1,0 +1,24 @@
+platforms:
+
+  qidian:
+    style: "慢热+世界观+长线付费"
+    hook_density: low
+    chapter_length: long
+    retention_focus: world_building
+
+  fanqie:
+    style: "快节奏+强钩子+推荐流"
+    hook_density: high
+    chapter_length: medium
+    retention_focus: cliffhanger
+
+  feilu:
+    style: "极致爽点+高频打脸"
+    hook_density: very_high
+    chapter_length: short
+    retention_focus: emotional_spike
+
+adaptation_rules:
+  - auto_adjust_pacing_by_platform
+  - auto_adjust_conflict_density
+  - auto_adjust_hook_frequency
