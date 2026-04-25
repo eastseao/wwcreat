@@ -1,9 +1,0 @@
-input:
-  topic
-  market_trend
-  platform
-
-output:
-  success_probability:
-  expected_readership:
-  retention_forecast:
