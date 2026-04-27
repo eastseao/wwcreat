@@ -1,0 +1,33 @@
+version: 4.0
+
+generation:
+  article_length: 1200-2000
+  paragraph_style: mixed
+  tone: natural
+
+content:
+  hook_strength: high
+  storytelling: true
+  emotion_level: medium
+
+seo:
+  keyword_density: 1-2%
+  include_h2_h3: true
+
+explode:
+  enable: true
+  curiosity_gap: true
+  emotional_trigger: true
+
+deai:
+  enable: true
+  remove_patterns: true
+  humanize: true
+
+platform:
+  wechat:
+    style: 深度+故事
+  xiaohongshu:
+    style: 短句+情绪
+  zhihu:
+    style: 专业+结构

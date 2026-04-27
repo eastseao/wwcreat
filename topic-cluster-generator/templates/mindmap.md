@@ -1,0 +1,5 @@
+- {{core_topic}}
+  - Cluster 1
+    - Article 1
+    - Article 2
+  - Cluster 2
